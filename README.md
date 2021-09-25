@@ -12,5 +12,10 @@ How to launch
 ```bash
 docker run -d -p 3000:3000 deadtrace/next-hello
 ```
+OR (using Makefile)
+
+```bash
+make run
+```
 
 Then navigate to http://localhost:3000.
